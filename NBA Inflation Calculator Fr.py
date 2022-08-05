@@ -9,7 +9,7 @@ from statistics import stdev
 
 print("Compare a stat in one era to the stats in another ")
 sc= str(input("Choose your category:  MP, FGM, FGA, FG%,3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT, FTA, FT%, ORB, DRB, TRB, AST, STL, BLK, TOV,  PF, PTS"))
-stattie = int(input("What was the numerical value of the stat? Ex. 10 TRB, the numerical value is 10."))
+stattie = float(input("What was the numerical value of the stat? Ex. 10 TRB, the numerical value is 10."))
 first_year = int(input("What year was the stat achieved?"))
 second_year = int(input("What year do you want to compare it to?"))
 
